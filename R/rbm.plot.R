@@ -14,7 +14,7 @@ rbm.plot = function (data_array) {
   points (log(rbm_obj$K[opt_idx]), rbm_obj$GammaRBM[opt_idx], col=2, pch = 16);
 
   par(fg = "red");
-  errbar (log(rbm_obj$K[opt_idx]), rbm_obj$GammaRBM[opt_idx],
+  Hmisc::errbar (log(rbm_obj$K[opt_idx]), rbm_obj$GammaRBM[opt_idx],
     rbm_obj$GammaRBM[opt_idx]*(1 + 1/sqrt(rbm_obj$K[opt_idx])),
     rbm_obj$GammaRBM[opt_idx]*(1 - 1/sqrt(rbm_obj$K[opt_idx])),
     col=2, pch = 15, add=TRUE);
