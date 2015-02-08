@@ -3,7 +3,7 @@ Title: Tail Index Estimation with Random Block Maxima
 Version: 1.0.0
 Authors@R: person("Stefan", "Wager", , "swager@stanford.edu", role = c("aut", "cre"))
 Description: Implements the random block maxima method proposed by Wager (2014).
-Depends: R (>= 3.1.2)
+Depends: R (>= 3.0.0)
 License: MIT
 LazyData: true
 Import: Hmisc
