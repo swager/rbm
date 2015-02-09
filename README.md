@@ -4,7 +4,6 @@ Tail index estimation with random block maxima. This package implements the rand
 To install this package in R, run the following commands:
 
 ```R
-install.packages("devtools")
 library(devtools) 
 install_github("swager/rbm")
 ```
