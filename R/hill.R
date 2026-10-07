@@ -8,6 +8,7 @@
 hill = function(data_array, idx = 1:(length(logsorted) - 1)) {
   useable_data = data_array[data_array > 0];
   logsorted = log(sort(useable_data));
+  n = length(logsorted);
   gammaH = rep(0, length(idx));
   for (iter in 1:length(idx))
   {
